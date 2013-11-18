@@ -1,0 +1,55 @@
+\documentclass[a4paper,12pt]{lettre}
+
+\usepackage[francais]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{xspace}
+
+\setlength{\parindent}{15pt}
+
+\DeclareUnicodeCharacter{00A0}{~}
+
+\begin{document}
+
+\begin{letter}{^RECIPIENT}
+  
+^SENDER
+
+% pour que la signature passe
+\setlength{\sigspace}{-0.1cm}
+
+\opening{^RANK}
+
+Actuellement en première année de BTS IRIS (\emph{Informatique et réseau pour
+l'Industrie et les Services techniques}), je souhaiterai réaliser un stage de
+dévelopement informatique dans votre entreprise du ^BEGINDATE au ^ENDDATE, soit
+une période de ^PERIOD.
+
+Bien que n'étant qu'en première année de BTS, je suis déjà fort familier
+avec la conception et le développement d'applications et de sites Internet.
+Je suis formé à la méthode Merise, au langage SQL et possède de bonnes
+compétences en C, C++, Perl, HTML, CSS, PHP, JavaScript, WLangage et utilise
+quotidiennement les systèmes UNIX (Linux, Mac OS X) et Windows. \\[0.1\baselineskip]
+%
+\indent De plus ma formation en informatique industrielle me permet d'étudier
+la gestion de processus temps réel, la méthode UML et la programmation sur
+systèmes embarqués. Les notions de Programmation Orientée Objet et le langage
+C++ font aussi partie du programme de BTS IRIS.
+
+Passionné et autodidacte, je suis capable de me former seul aux nouvelles
+technologies et je sais la plupart du temps trouver par moi-même une solution
+aux problèmes que je peux rencontrer. \\[0.1\baselineskip]
+\indent De ce fait, si votre entreprise utilise une technologie, un langage,
+un framework particulier qui m'est inconnu, il m'est tout à fait possible de
+m'autoformer afin d'être productif le jour du stage.
+
+\closing{%
+Je me tiens à votre disposition pour convenir d'un rendez-vous. \\
+Dans l'attente d'une réponse favorable de votre part, veuillez
+agréer^RANKCLOSE'expression de mes salutations distinguées.
+}
+
+\end{letter}
+
+\end{document}
